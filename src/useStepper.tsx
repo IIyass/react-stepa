@@ -1,7 +1,7 @@
 import * as React from "react";
 
-const useStepper = (initialStep: number) => {
-  const [step, setStep] = React.useState(initialStep);
+const useStepper = (initialStep?: number) => {
+  const [step, setStep] = React.useState(initialStep || 0);
 
   const nextStep = () => {
     setStep(step + 1);
