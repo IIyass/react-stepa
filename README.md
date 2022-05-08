@@ -4,8 +4,6 @@
   npm install react-stepa --save
 ```
 
-# 📌 How it works
-
 # ✨ Usage
 
 ```jsx
@@ -39,25 +37,19 @@ const App = () => {
 };
 ```
 
-steps,
-customStyle,
-verticalOrientation,
-activeStep,
-
-# 📍 API
+# 📌 API
 
 ````jsx
-| Name                 | Type                | Default            | Description
-| --------             | ---------           | --------           | ------------ |
-| steps                | array               |                    | array of  {label: "label", description: "description"}
-| verticalOrientation  | boolean             | false              | Direction of Steps. vertical or horizantal.
-| activeStep           | number              | 0                  | Index of current Step.
-| customStyle          | {completed: string, |{completed:#4BB543, | Steps style.
-|                      | pending: string,    | pending:#e9e9e9,   |
-|                      | progress: string}   | progress:#2178FF}  |
-
-
-
+| Name                 | Type                     | Default            | Description
+| ---------------------| -------------------------| -------------------| -----------------------|
+| steps                | array of {label: string, |                    | Steps content.          |
+|                      |  description: string}    |                    |                        |
+| verticalOrientation  | boolean                  | false              | Direction of Steps.    |
+|                      |                          |                    | vertical or horizantal.|
+| activeStep           | number                   | 0                  | Index of current Step. |
+| customStyle          | {completed: string,      |{completed:#4BB543, | Steps style.           |
+|                      | pending: string,         | pending:#e9e9e9,   |                        |
+|                      | progress: string}        | progress:#2178FF}  |                        |
 
 ```
 ````
