@@ -45,7 +45,7 @@ const App = () => {
 | steps                | array of {label: string,description: string}   |  Steps content.       |
 | verticalOrientation  | boolean                  | false              | Direction of Steps. Vertical or horizantal.    |
 | activeStep           | number                   | 0                  | Index of current Step. |
-| customStyle          | {completed: string, pending: string,  progress: string}  |{completed:#4BB543,pending:#e9e9e9,progress:#2178FF} | Steps style.
+| customStyle          | {completed: string, pending: string,  progress: string}  |{completed:#4BB543,pending:#e9e9e9,progress:#2178FF} | Steps style. |
 
 
 
