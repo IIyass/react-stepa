@@ -3,15 +3,15 @@ import * as React from "react";
 const useStepper = (initialStep?: number) => {
   const [step, setStep] = React.useState(initialStep || 0);
 
-  const nextStep = () => {
+  const next = () => {
     setStep(step + 1);
   };
 
-  const previousStep = () => {
+  const previous = () => {
     setStep(step - 1);
   };
 
-  return { nextStep, previousStep, step };
+  return { next, previous, step };
 };
 
 export { useStepper };

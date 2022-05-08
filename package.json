@@ -1,13 +1,13 @@
 {
   "name": "react-stepa",
   "version": "1.0.0",
-  "description": "",
+  "description": "```jsx   npm install react-stepa --save ```",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IIyass/react-stepa"
+    "url": "git+https://github.com/IIyass/react-stepa.git"
   },
   "keywords": [
     "react",
@@ -42,5 +42,9 @@
   },
   "dependencies": {
     "styled-components": "^5.3.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/IIyass/react-stepa/issues"
+  },
+  "homepage": "https://github.com/IIyass/react-stepa#readme"
 }
