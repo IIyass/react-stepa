@@ -42,7 +42,7 @@ const App = () => {
 ````jsx
 | Name                 | Type                     | Default            | Description
 | ---------------------| -------------------------| -------------------| -----------------------|
-| steps                | array of {label: string, |                    | Steps content.          |
+| steps                | array of {label: string, |                    | Steps content.         |
 |                      |  description: string}    |                    |                        |
 | verticalOrientation  | boolean                  | false              | Direction of Steps.    |
 |                      |                          |                    | vertical or horizantal.|
