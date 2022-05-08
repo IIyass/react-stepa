@@ -40,16 +40,14 @@ const App = () => {
 # 📌 API
 
 ````jsx
-| Name                 | Type                     | Default            | Description
+| Name                 | Type                     | Default            | Description            |
 | ---------------------| -------------------------| -------------------| -----------------------|
-| steps                | array of {label: string, |                    | Steps content.         |
-|                      |  description: string}    |                    |                        |
-| verticalOrientation  | boolean                  | false              | Direction of Steps.    |
-|                      |                          |                    | vertical or horizantal.|
+| steps                | array of {label: string,description: string}   |  Steps content.       |
+| verticalOrientation  | boolean                  | false              | Direction of Steps. Vertical or horizantal.    |
 | activeStep           | number                   | 0                  | Index of current Step. |
-| customStyle          | {completed: string,      |{completed:#4BB543, | Steps style.           |
-|                      | pending: string,         | pending:#e9e9e9,   |                        |
-|                      | progress: string}        | progress:#2178FF}  |                        |
+| customStyle          | {completed: string, pending: string,  progress: string}  |{completed:#4BB543,pending:#e9e9e9,progress:#2178FF} | Steps style.
+
+
 
 ```
 ````
